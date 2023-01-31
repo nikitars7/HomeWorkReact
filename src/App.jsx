@@ -17,10 +17,10 @@ function App() {
     <div className="App">
       <h1 className="count">Count : {count}</h1>
        <div>
-         <Button countClick={funcIncrement}>Up</Button>
+         <Button className="counter" countClick={funcIncrement}>Up</Button>
         </div>
        <div>
-        <Button  countClick={funcDecrement}>Down</Button>
+        <Button  className="counter" countClick={funcDecrement}>Down</Button>
         </div>
     </div>
   );
