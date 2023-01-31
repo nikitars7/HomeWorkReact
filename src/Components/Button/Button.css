@@ -1,0 +1,14 @@
+.counter{
+   color:aquamarine;
+   width: 100px;
+   background-color: #fff;
+   border-radius: 20px;
+   border: 1px solid ;
+   padding: 4px;
+   margin-bottom: 10px;
+}
+.counter:hover{
+   color:aqua;
+   position: relative;
+   top:-1.5px;
+}
